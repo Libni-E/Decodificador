@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Decodificador</title>
+</head>
+<body>
+    <script src="app.js" defer></script>
+
+    <header class="cabecalho">
+        <img class="imagemIcone" src="img/Frame 6.png" alt="Icone da alura">
+    </header>
+    
+    <main class="container">
+        <div class="container__entrada">
+
+            <textarea class="container__entrada__textarea" id = "entrada" onfocus="this.value=''" type="text" value="Digite seu texto" rows="800" > Digite algo</textarea>
+
+          
+            <div class="container__entrada__botao">
+
+                
+                <button class="botaoCriptografar" onclick="criptografar()">Criptografar</button>
+                <button class="botaoDescriptografar"  onclick="descriptografar()">Descriptografar</button>
+            </div >                   
+            
+            
+        </div>
+       
+        <div class="container__saida">
+
+
+                <img id="imagem" src="img/High quality products 1 1.png "   alt=" imagem dizendo que ainda nenhuma mensagem foi encontrada">
+                <div class="container__saida__texto">
+                    <h1 id = "h1"  class="tituloDaSaida"> Nenhuma mensagem encontrada</h1>
+                    <p id="paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <textarea id="saidaValores"  class="container__saida__textoCriptografado"  readonly ></textarea>
+            
+            <div>
+                <button id="botaoCopiar" class="botaoCopiar" onclick="copiar()">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
