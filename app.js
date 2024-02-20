@@ -10,7 +10,7 @@ document.getElementById('botaoCopiar').style.display = "block"
 texto = document.getElementById('entrada').value;
 saida = document.getElementById('saidaValores');
 
-const checar = '[@/á/é/ã/õ/A-Z/0-9]';
+const checar = '[@/á/é/ã/õ/A-Z/0-9/]';
 
 if (!texto.match(checar)) {
 texto = texto.replace(/e/g,'enter');
