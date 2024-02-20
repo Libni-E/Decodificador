@@ -1,28 +1,34 @@
-Desafio Decodificador
-O projeto do Decodificador foi construído como resultado do primeiro challengee proposto pela ONE .
 
-O desafio consistia em criar uma aplicação que permitisse o usuário criptografar e descriptografar mensagens!
+# Decodificador de textos 
 
-Como requisitos a aplicação deveria:
-Funcionar apenas com letras minúsculas
+Este projeto foi desenvolvido  desenvolvido utilizando HTML5,CSS3,JAVASCRIPT, é um decodificador de
+textos , exercício proposto no curso ONE (Oracle Next Education) em parceria com a ALURA, afim de praticarmos os 
+conhecimentos que aprendemos na primeira etapa do curso sobre programação HTML , CSS3  e JAVASCIPT. Aqui foi 
+bastante exercitado os conceitos de responsividade e também o intenso trabalho com o javascript.
 
-Ser utilizados letras com acentos nem caracteres especiais
+## Hospedagem 
 
-Ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
-
-Ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
-
-Ter o resultado deve ser exibido na tela.
+Este projeto esta publicado aqui no site da Vercel, se quiser suma demosntraçaõ visite o site. 
+https://decodificador-flax.vercel.app/
 
 
-Aprendizados
-Através desse projeto pude explorar conceitos de estrutura de HTML, decoração do site utilizando CSS, Flexbox e interação com o DOM através de JavaScript.
 
-Principais aprendizados:
+## 🛠️ Tecnologias utilizadas 
 
-Aplicar e retirar estilos em tags no HTML
-Função de criptografar e descriptografar utilizando método "replace" do JavaScript
-Utilização de expressões regulares para especificar quais caracteres podem user utilizados
-Posicionamento de elementos na tela utilizando Flebox
-Stack utilizada
-HTML, CSS e Javascript
+  ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)  
+  ![Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  ![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+  ![VsCode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
+
+## 💻 Telas do sistema
+
+<div>
+  <img src="img/demonstração.png" width=350 alt="Pagina home" title="Foto da Pagina Web decodificador de textos" > 
+</div>
+
+
+
+## ✒️ Autor
+
+Dev. Libni Evanio
