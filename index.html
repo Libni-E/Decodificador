@@ -17,14 +17,16 @@
     <main class="container">
         <div class="container__entrada">
 
-            <textarea class="container__entrada__textarea" id = "entrada" onfocus="this.value=''" type="text" value="Digite seu texto" rows="800" > Digite algo</textarea>
+            <textarea class="container__entrada__textarea" id = "entrada" onfocus="this.value='' " type="text" rows="800" > DIgite a palavra</textarea>
 
-          
+            
             <div class="container__entrada__botao">
 
-                
-                <button class="botaoCriptografar" onclick="criptografar()">Criptografar</button>
-                <button class="botaoDescriptografar"  onclick="descriptografar()">Descriptografar</button>
+                <img class="imagemDeAviso" src="img/Frame 1@3x.png" width="300" height="20" alt="frame1">
+                <div class="botoes">
+                    <button class="botaoCriptografar" onclick="criptografar()">Criptografar</button>
+                    <button class="botaoDescriptografar"  onclick="descriptografar()">Descriptografar</button>
+                </div>
             </div >                   
             
             
@@ -33,7 +35,7 @@
         <div class="container__saida">
 
 
-                <img id="imagem" src="img/High quality products 1 1.png "   alt=" imagem dizendo que ainda nenhuma mensagem foi encontrada">
+                <img  id="imagem" src="img/High quality products 1 1.png "   alt=" imagem dizendo que ainda nenhuma mensagem foi encontrada">
                 <div class="container__saida__texto">
                     <h1 id = "h1"  class="tituloDaSaida"> Nenhuma mensagem encontrada</h1>
                     <p id="paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
@@ -47,7 +49,7 @@
     </main>
 
     <footer>
-
+        <h2 class="rodape">Desenvolvi por Libni</h2>
     </footer>
 </body>
 </html>

@@ -10,6 +10,9 @@ document.getElementById('botaoCopiar').style.display = "block"
 texto = document.getElementById('entrada').value;
 saida = document.getElementById('saidaValores');
 
+const checar = '[@/á/é/ã/õ/A-Z/0-9]';
+
+if (!texto.match(checar)) {
 texto = texto.replace(/e/g,'enter');
 texto = texto.replace(/i/g,'imes');
 texto = texto.replace(/a/g,'ai');
@@ -17,7 +20,9 @@ texto = texto.replace(/o/g,'ober');
 texto = texto.replace(/u/g,'ufat');
 
 saida.value = texto;
-
+}else {
+    alert("Caracter incorreto.\nNão digite caracteres maiúsculo e nem acentuação");
+}
 
 }
 
@@ -42,12 +47,15 @@ function descriptografar() {
         
         let inputSaida = document.getElementById("saidaValores");
 
-        // Seleciona o texto dentro do campo de entrada
+        
         inputSaida.select();
 
-        // Copia o texto selecionado para a área de transferência
+        
         document.execCommand("copy");
 
+        alert("Texto copiado com sucesso");
         
        
     }
+
+    
